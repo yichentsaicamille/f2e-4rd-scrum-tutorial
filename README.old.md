@@ -1,1 +1,0 @@
-# f2e-4rd-scrum-tutorial

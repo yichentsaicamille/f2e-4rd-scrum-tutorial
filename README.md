@@ -24,6 +24,6 @@
 
 ## Remark
 
-Design by [Dai Weiling](https://www.linkedin.com/in/chixuanchang/)
+Design by Dai Weiling
 
 Design Guide [Adobe XD](https://xd.adobe.com/view/e7598541-1967-48f5-bcb0-ed6850f78673-b20a/)

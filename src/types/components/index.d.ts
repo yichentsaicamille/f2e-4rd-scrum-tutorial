@@ -1,3 +1,3 @@
-// import type * as xxx from "";
+import type ProgressBar from "./progressBar";
 
-export type {};
+export type { ProgressBar };

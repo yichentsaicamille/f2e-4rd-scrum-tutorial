@@ -1,3 +1,3 @@
-// import xxx from "./";
+import type Components from "./components";
 
-export {};
+export { Components };

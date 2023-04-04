@@ -1,3 +1,3 @@
-// import * as xxx from "./xxx";
+import Button from "./button"
 
-export {};
+export {Button};

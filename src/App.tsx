@@ -1,6 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.scss";
-import * as Pages from "pages/";
+import * as Pages from "pages";
 
 // TODO: 之後可擴充換頁互動
 const browserRouter = [

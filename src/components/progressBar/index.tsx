@@ -1,4 +1,4 @@
-import styles from "./style.module.scss";
+import styles from "./styles.module.scss";
 import * as Types from "types";
 
 function ProgressBar(props: Types.Components.ProgressBar.Props) {

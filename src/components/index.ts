@@ -1,3 +1,3 @@
-// import * as xxx from "./xxx";
+import ProgressBar from "./progressBar";
 
-export {};
+export { ProgressBar };

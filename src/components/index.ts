@@ -1,4 +1,5 @@
+import Button from "./button";
 import ProgressBar from "./progressBar";
 import DialogBox from "./dialogBox";
 
-export { ProgressBar, DialogBox };
+export { ProgressBar, Button, DialogBox };

@@ -1,11 +1,7 @@
 import * as Components from "components";
 
 const Home = () => {
-  return (
-    <>
-      <Components.Button />
-    </>
-  );
+  return <></>;
 };
 
 export default Home;

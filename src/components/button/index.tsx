@@ -1,12 +1,16 @@
 import styles from "./styles.module.scss";
+import type * as Types from "types";
 
-const Button = (props: any) => {
+function Button(props: Types.Components.Button.Props) {
   return (
     <button
       className={`${styles.button}`}
-      style={{ width: "356px", color: props.color }}
-    ></button>
+      style={{ width: props.width, backgroundColor: props.color }}
+      onClick={props.onClick}
+    >
+      {props.children}
+    </button>
   );
-};
+}
 
 export default Button;

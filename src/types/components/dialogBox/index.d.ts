@@ -1,8 +1,9 @@
 type Props = {
-  color: string;
   width: string;
+  padding: string;
+  color: string;
   children: React.ReactNode;
-  onClick: () => void;
+  character: React.ReactNode;
 };
 
 export type { Props };

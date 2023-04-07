@@ -1,5 +1,10 @@
-const Introduce = ()=>{
-    return <></>
-}
+import * as Components from "components";
+const Introduce = () => {
+  return (
+    <>
+      <Components.LayOut>{""}</Components.LayOut>
+    </>
+  );
+};
 
-export default Introduce
+export default Introduce;

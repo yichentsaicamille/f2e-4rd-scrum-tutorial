@@ -1,4 +1,5 @@
-import Button from "./button"
+import Button from "./button";
 import ProgressBar from "./progressBar";
+import LayOut from "./layOut";
 
-export { ProgressBar, Button };
+export { ProgressBar, Button, LayOut };

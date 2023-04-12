@@ -33,12 +33,28 @@
     left: 50%;
     transform: translateX(-50%);
     background-color: map-get($project-colors ,white);
-    border-radius: 50px;
+    border-radius: map-get($border-radius , 50 );
     padding: 79px;
+}
+
+.wrap{
+    position: relative;
 }
 
 .title{
     font-size: map-get($font-sizes, 6);
     font-weight: bold;
     margin-bottom: 14px;
+}
+
+.button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(-30px,30px);
+}
+
+.word{
+    font-size: map-get($font-sizes, 6);
+    font-weight: bold;
 }

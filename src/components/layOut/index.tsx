@@ -11,7 +11,7 @@ const LayOut = (props: Types.Components.LayOut.Props) => {
         <img src={BG} className={styles.bg} />
         <div className={styles.navbar}>
           <img src={Logo} className={styles.logo} />
-          <Components.ProgressBar completed={155} />
+          <Components.ProgressBar completed={(props.completed / 1398) * 100} />
         </div>
         {props.children}
       </div>
